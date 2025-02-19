@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FiMenu, FiX } from "react-icons/fi";
+import { IoMdArrowDropdown } from "react-icons/io";
 import ThemeChange from './ThemeChange';
+import reactsvg from '../assets/react.svg'
 
 
 
@@ -11,11 +13,11 @@ function Header() {
     const [data, setData] = useState({})
 
     useEffect(() => {
-     fetch(`https://api.github.com/users/Souradeep321`)
-     .then((res) => res.json())
-     .then((data) => setData(data))
+        fetch(`https://api.github.com/users/Souradeep321`)
+            .then((res) => res.json())
+            .then((data) => setData(data))
     }, [])
-    
+
 
     // Function to lock/unlock body scroll when modal is open/closed
     const toggleBodyScroll = (isOpen) => {
@@ -40,7 +42,7 @@ function Header() {
                 {/* Logo for Header */}
                 <div>
                     <Link to='/'>
-                        <img src="#" alt="loading"  />
+                        <img src={reactsvg} alt="loading" />
                     </Link>
                 </div>
 
@@ -64,10 +66,12 @@ function Header() {
                     </ul>
                 </div>
 
-                <div className='flex gap-[26px] '>
+                <div className='flex gap-[10px] items-center justify-center'>
                     <span className='md:hidden text-xl'>
-                        <button onClick={() => { setIsOpen(true) }}>
-                            <FiMenu />
+                        <button
+                            className='flex items-center justify-center font-lora  gap-0 bg-gray-100 dark:bg-zinc-300 rounded-2xl px-3 py-2'
+                            onClick={() => { setIsOpen(true) }}>
+                            menu<IoMdArrowDropdown />
                         </button>
                     </span>
                     <span>
