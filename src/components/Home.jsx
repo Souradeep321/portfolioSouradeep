@@ -3,16 +3,19 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { CiInstagram } from "react-icons/ci";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import HomeCard from './HomeCard';
+import allText from '../text-container/allText';
 
 
 function Home() {
   const [data, setData] = useState({});
 
+
   const texts = [
+    "Hi, I'm Souradeep Hazra!",
     "Welcome to My Portfolio!",
-    "I am a Web Developer!",
-    "I love coding!",
-    "Let's build something amazing!"
+    "I build modern web applications.",
+    "I love designing and coding!",
+    "Let's create something amazing!"
   ];
 
 
@@ -62,7 +65,6 @@ function Home() {
     <section className='relative w-screen h-full bg-[#fafafa] dark:bg-[#000000] overflow-x-hidden'>
       <div className="relative 2xl:w-[50%] w-[100%] md:w-[90%] h-[100%] bg-white dark:bg-[#18181b] mx-auto lg:p-12 px-6 py-4 ">
 
-
         {/* Profile Image */}
         <div className='flex items-center justify-normal '>
           <img src={data.avatar_url} alt="user img" className="h-28 w-28 rounded-full border-2 border-white dark:border-[#18181b] dark:text-white" />
@@ -79,7 +81,7 @@ function Home() {
         {/* Description */}
         <p className="text-base mt-3 font-medium font-robotoSlab text-zinc-600 dark:text-zinc-400 leading-8 w-full
         md:w-[70%] ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente animi quo doloribus optio exercitationem consectetur in vel non debitis recusandae aspernatur minima, libero aut ut sit vitae nesciunt numquam ipsa consequuntur ad pariatur neque id quam? Quis eos tempore ipsam iusto perferendis reiciendis!
+          {allText.homeText}
         </p>
 
 

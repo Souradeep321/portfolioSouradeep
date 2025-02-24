@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { FiMenu, FiX } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import ThemeChange from './ThemeChange';
 import reactsvg from '../assets/react.svg'
-
-
 
 
 function Header() {
@@ -45,7 +43,7 @@ function Header() {
                         <img src={reactsvg} alt="loading" />
                     </Link>
                 </div>
-
+               
 
                 {/* Navlinks for header */}
                 <div className="hidden md:flex">
@@ -69,7 +67,7 @@ function Header() {
                 <div className='flex gap-[10px] items-center justify-center'>
                     <span className='md:hidden text-xl'>
                         <button
-                            className='flex items-center justify-center font-lora  gap-0 bg-gray-100 dark:bg-zinc-300 rounded-full px-3 py-2 text-xs'
+                            className='flex items-center justify-center font-lora  gap-0 bg-gray-200 dark:bg-zinc-300 rounded-full px-3 py-2 text-xs'
                             onClick={() => { setIsOpen(true) }}>
                             menu<IoMdArrowDropdown />
                         </button>
