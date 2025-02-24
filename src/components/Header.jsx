@@ -36,8 +36,8 @@ function Header() {
 
 
     return (
-        <header className="relative w-screen flex bg-[#fafafa] dark:bg-[#000000] overflow-x-hidden ">
-            <nav className="relative 2xl:w-[50%] w-[100%] md:w-[90%] h-[15vh] mx-auto flex items-center md:justify-around justify-between bg-white dark:bg-[#18181b] px-6 shadow-md">
+        <header className="relative w-screen flex bg-[#fafafa] dark:bg-[#000000] overflow-x-hidden">
+            <nav className="relative 2xl:w-[50%] w-[100%] md:w-[90%] md:h-[15vh] h-[10vh] mx-auto flex items-center md:justify-around justify-between bg-white dark:bg-[#18181b] px-6 shadow-md">
 
                 {/* Logo for Header */}
                 <div>
@@ -69,7 +69,7 @@ function Header() {
                 <div className='flex gap-[10px] items-center justify-center'>
                     <span className='md:hidden text-xl'>
                         <button
-                            className='flex items-center justify-center font-lora  gap-0 bg-gray-100 dark:bg-zinc-300 rounded-2xl px-3 py-2'
+                            className='flex items-center justify-center font-lora  gap-0 bg-gray-100 dark:bg-zinc-300 rounded-full px-3 py-2 text-xs'
                             onClick={() => { setIsOpen(true) }}>
                             menu<IoMdArrowDropdown />
                         </button>
@@ -102,7 +102,7 @@ function Header() {
 
                         {/* Navigation Links */}
                         <ul className="space-y-4 text-gray-600 text-center">
-                            {["About", "Project", "Contact"].map((item, index) => (
+                            {["About", "Projects", "Contact"].map((item, index) => (
                                 <li key={index} className="border-b border-gray-200 pb-2 last:border-b-0">
                                     <Link
                                         to={`/${item.toLowerCase()}`}

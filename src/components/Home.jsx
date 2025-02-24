@@ -60,7 +60,7 @@ function Home() {
 
   return (
     <section className='relative w-screen h-full bg-[#fafafa] dark:bg-[#000000] overflow-x-hidden'>
-      <div className="relative 2xl:w-[50%] w-[100%] md:w-[90%] h-[100%] bg-white dark:bg-[#18181b] mx-auto md:p-12 p-6 ">
+      <div className="relative 2xl:w-[50%] w-[100%] md:w-[90%] h-[100%] bg-white dark:bg-[#18181b] mx-auto lg:p-12 px-6 py-4 ">
 
 
         {/* Profile Image */}
@@ -75,7 +75,6 @@ function Home() {
           {text}
           <span className="animate-blink blinking-cursor">|</span>
         </div>
-
 
         {/* Description */}
         <p className="text-base mt-3 font-medium font-robotoSlab text-zinc-600 dark:text-zinc-400 leading-8 w-full

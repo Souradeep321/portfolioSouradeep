@@ -13,11 +13,11 @@ const images = [
 const HomeCard = () => {
   return (
     <div className="flex justify-center items-center px-4 py-8">
-      <div className="flex flex-nowrap gap-6">
+      <div className="flex flex-nowrap gap-5">
         {images.map((src, index) => (
           <motion.div
             key={index}
-            className="w-36 h-36 sm:w-44 sm:h-44 md:w-56 md:h-56 rounded-xl overflow-hidden shadow-lg"
+            className="w-40 h-40 sm:w-44 sm:h-44 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-lg"
             whileHover={{ rotate: Math.random() * 10 - 5, scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200, damping: 10 }}
           >
