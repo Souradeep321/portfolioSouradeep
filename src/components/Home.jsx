@@ -11,8 +11,8 @@ function Home() {
 
 
   const texts = [
-    "Hi, I'm Souradeep Hazra!",
     "Welcome to My Portfolio!",
+    "Hi, I'm Souradeep Hazra!",
     "I build modern web applications.",
     "I love designing and coding!",
     "Let's create something amazing!"
