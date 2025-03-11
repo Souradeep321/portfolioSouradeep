@@ -67,7 +67,7 @@ function Header() {
                 <div className='flex gap-[10px] items-center justify-center'>
                     <span className='md:hidden text-xl'>
                         <button
-                            className='flex items-center justify-center font-lora  gap-0 bg-gray-200 dark:bg-zinc-300 rounded-full px-3 py-2 text-xs'
+                            className='flex items-center justify-center font-lora  gap-0 bg-gray-200 dark:bg-zinc-300 rounded-full px-3 py-2 text-xs '
                             onClick={() => { setIsOpen(true) }}>
                             menu<IoMdArrowDropdown />
                         </button>
@@ -80,10 +80,10 @@ function Header() {
 
             {/* Mobile Navbar Modal */}
             {isOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-md z-50 ">
+                <div className="fixed inset-0 flex items-center justify-center bg-black  bg-opacity-50 backdrop-blur-md z-50 ">
 
                     {/* Modal Content */}
-                    <div className="bg-white w-[90%] max-w-md p-6 rounded-xl shadow-lg relative">
+                    <div className="bg-white w-[90%] max-w-md p-6 rounded-xl shadow-lg relative ">
 
                         {/* Close Button */}
                         <button

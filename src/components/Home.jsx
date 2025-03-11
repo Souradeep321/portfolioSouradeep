@@ -87,16 +87,16 @@ function Home() {
 
         {/* Social Links */}
         <div className="mt-8 mb-4 flex justify-self-start gap-8 text-2xl font-lora text-gray-700  ">
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <RiTwitterXFill className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
           </a>
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <CiInstagram className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
           </a>
           <a href="https://github.com/Souradeep321" target="_blank" rel="noopener noreferrer">
             <FaGithub className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
           </a>
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' />
           </a>
         </div>

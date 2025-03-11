@@ -5,39 +5,25 @@ function ProjectCard() {
 
   const projects = [
     {
-      projectImg: "https://images.unsplash.com/photo-1739382122846-74e722a6eea4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
+      projectImg: "https://cdn.pixabay.com/photo/2020/02/11/19/56/laptop-4840790_1280.jpg",
       title: "appwriteBlog",
-      description: "reating technology to empower civilians to explore space on their own terms.",
-      link: "#",
-      linkText: "blog.tech",
+      description: "A fully functional blogging platform using React, Appwrite, Redux Toolkit, and Tailwind CSS with complete CRUD functionality.",
+      link: "https://github.com/Souradeep321/AppwriteBlog",
+      linkText: "AppwriteBlog",
     },
     {
-      projectImg: "https://images.unsplash.com/photo-1739382122846-74e722a6eea4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
-      title: "appwriteBlog",
-      description: "reating technology to empower civilians to explore space on their own terms.",
-      link: "#",
-      linkText: "blog.tech",
+      projectImg: "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_640.jpg",
+      title: "Portfolio Website",
+      description: "A sleek personal portfolio showcasing my skills, projects, and contact information.",
+      link: "https://github.com/Souradeep321/portfolioSouradeep",
+      linkText: "Portfolio",
     },
     {
-      projectImg: "https://images.unsplash.com/photo-1739382122846-74e722a6eea4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
-      title: "appwriteBlog",
-      description: "reating technology to empower civilians to explore space on their own terms.",
-      link: "#",
-      linkText: "blog.tech",
-    },
-    {
-      projectImg: "https://images.unsplash.com/photo-1739382122846-74e722a6eea4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
-      title: "appwriteBlog",
-      description: "reating technology to empower civilians to explore space on their own terms.",
-      link: "#",
-      linkText: "blog.tech",
-    },
-    {
-      projectImg: "https://images.unsplash.com/photo-1739382122846-74e722a6eea4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
-      title: "appwriteBlog",
-      description: "reating technology to empower civilians to explore space on their own terms.",
-      link: "#",
-      linkText: "blog.tech",
+      projectImg: "https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg",
+      title: "To-Do App",
+      description: "A task manager with Redux Toolkit and Appwrite integration.to empower civilians to explore space on their own terms.",
+      link: "https://github.com/Souradeep321/",
+      linkText: "Todo",
     },
   ]
 

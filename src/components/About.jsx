@@ -15,7 +15,7 @@ function About() {
                 <div className="lg:col-start-2 lg:col-end-3 px-2">
                     <div className="w-72 h-72  lg:w-[320px] lg:h-[300px] 2xl:w-60 2xl:h-64 lg:m-auto  overflow-hidden rounded-2xl shadow-lg rotate-[5deg] border-2 border-gray-300 ">
                         <img
-                            src="https://cdn.pixabay.com/photo/2020/05/04/11/21/automobile-5128760_640.jpg"
+                            src="https://cdn.pixabay.com/photo/2016/11/30/12/29/bicycle-1872682_640.jpg"
                             alt="Loading img"
                             className="w-full h-full object-cover object-center "
                         />
@@ -24,34 +24,34 @@ function About() {
 
 
                 <div className="lg:col-start-1 lg:col-end-2 lg:row-start-1 self-center">
-                    <h1 className='text-3xl lg:text-4xl 2xl:text-3xl font-lora font-bold py-4 lg:p-0 dark:text-[white]'>
+                    <h1 className='text-2xl md:text-3xl lg:text-4xl 2xl:text-3xl font-lora font-bold py-4 lg:p-0 dark:text-[white]'>
                         {allText.aboutMeHeading}
                     </h1>
                 </div>
 
 
                 {/* About Description */}
-                <div className="text-zinc-600 dark:text-zinc-400 text-lg font-robotoSlab flex flex-col gap-y-9 items-center justify-center">
+                <div className="text-zinc-600 dark:text-zinc-400 md:text-lg text-base font-robotoSlab flex flex-col gap-y-9 items-center justify-center">
                     <p>{allText.aboutMeDescription1} </p>
-                    <p>{allText.aboutMeDescription1} </p>
-                    <p>{allText.aboutMeDescription1} </p>
-                    <p>{allText.aboutMeDescription1} </p>
+                    <p>{allText.aboutMeDescription2} </p>
+                    <p>{allText.aboutMeDescription3} </p>
+                    <p>{allText.aboutMeDescription4} </p>
 
                 </div>
 
 
                 <div className="flex flex-col gap-8 mt-6 mb-9 text-lg text-gray-700 font-lora">
                     <div className='flex flex-col items-start gap-3 p-2'>
-                        <a href="https://www.google.com" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
+                        <a href="#" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
                             <RiTwitterXFill className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' /><span className='dark:text-zinc-400'>Follow on X</span>
                         </a>
-                        <a href="https://www.google.com" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
+                        <a href="#" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
                             <CiInstagram className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' /><span className='dark:text-zinc-400'>Follow on Instagram</span>
                         </a>
                         <a href="https://github.com/Souradeep321" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
                             <FaGithub className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' /><span className='dark:text-zinc-400'>Follow on Github</span>
                         </a>
-                        <a href="https://www.google.com" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
+                        <a href="#" className='flex items-center justify-center gap-6 ' target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className='fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300' /><span className='dark:text-zinc-400'>Follow on LinkedIn</span>
                         </a>
                     </div>
