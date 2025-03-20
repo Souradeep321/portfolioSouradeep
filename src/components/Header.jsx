@@ -67,7 +67,7 @@ function Header() {
                 <div className='flex gap-[10px] items-center justify-center'>
                     <span className='md:hidden text-xl'>
                         <button
-                            className='flex items-center justify-center font-lora  gap-0 bg-gray-200 dark:bg-zinc-300 rounded-full px-3 py-2 text-xs '
+                            className='flex items-center justify-center font-lora  gap-0 bg-gray-200 dark:bg-[#515151] dark:text-white rounded-full px-3 py-2 text-xs '
                             onClick={() => { setIsOpen(true) }}>
                             menu<IoMdArrowDropdown />
                         </button>
@@ -83,7 +83,7 @@ function Header() {
                 <div className="fixed inset-0 flex items-center justify-center bg-black  bg-opacity-50 backdrop-blur-md z-50 ">
 
                     {/* Modal Content */}
-                    <div className="bg-white w-[90%] max-w-md p-6 rounded-xl shadow-lg relative ">
+                    <div className="bg-white w-[90%] max-w-md p-6 rounded-xl shadow-lg relative dark:bg-[#515151]">
 
                         {/* Close Button */}
                         <button
@@ -94,14 +94,14 @@ function Header() {
                         </button>
 
                         {/* Navigation Title */}
-                        <h2 className="text-gray-800 text-lg font-semibold text-center mb-4">
+                        <h2 className="text-gray-800 text-lg font-semibold  dark:text-white mb-4">
                             Navigation
                         </h2>
 
                         {/* Navigation Links */}
-                        <ul className="space-y-4 text-gray-600 text-center">
+                        <ul className="space-y-4 text-gray-600 ">
                             {["About", "Projects", "Contact"].map((item, index) => (
-                                <li key={index} className="border-b border-gray-200 pb-2 last:border-b-0">
+                                <li key={index} className="border-b border-gray-200 pb-2 last:border-b-0 dark:text-white">
                                     <Link
                                         to={`/${item.toLowerCase()}`}
                                         className="block hover:text-gray-900"
