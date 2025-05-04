@@ -6,6 +6,13 @@ function ProjectCard() {
   const projects = [
     {
       projectImg: "https://cdn.pixabay.com/photo/2020/02/11/19/56/laptop-4840790_1280.jpg",
+      title: "Twitter-Clone",
+      description: "Built a Twitter clone with core social media functionalities, enabling users to sign up, authenticate, create/delete posts, follow others, update their profiles, commenting on posts, and receive notifications.",
+      link: "https://github.com/Souradeep321/twitter_clone",
+      linkText: "twitter_clone",
+    },
+    {
+      projectImg: "https://cdn.pixabay.com/photo/2020/02/11/19/56/laptop-4840790_1280.jpg",
       title: "appwriteBlog",
       description: "A fully functional blogging platform using React, Appwrite, Redux Toolkit, and Tailwind CSS with complete CRUD functionality.",
       link: "https://github.com/Souradeep321/AppwriteBlog",

@@ -67,7 +67,7 @@ function Header() {
                 <div className='flex gap-[10px] items-center justify-center'>
                     <span className='md:hidden text-xl'>
                         <button
-                            className='flex items-center justify-center font-lora  gap-0 bg-gray-200 dark:bg-[#515151] dark:text-white rounded-full px-3 py-2 text-xs '
+                            className='flex items-center justify-center font-lora  gap-0 bg-gray-50 dark:bg-[#515151] dark:text-white rounded-full px-3 py-2 text-xs '
                             onClick={() => { setIsOpen(true) }}>
                             menu<IoMdArrowDropdown />
                         </button>

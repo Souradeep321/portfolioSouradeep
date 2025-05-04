@@ -79,7 +79,7 @@ function Home() {
         </div>
 
         {/* Description */}
-        <p className="text-base mt-3 font-medium font-robotoSlab text-zinc-600 dark:text-zinc-400 leading-8 w-full
+        <p className="text-sm lg:text:base mt-3 font-medium font-robotoSlab text-zinc-600 dark:text-zinc-400 leading-8 w-full
         md:w-[70%] ">
           {allText.homeText}
         </p>

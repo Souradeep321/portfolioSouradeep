@@ -15,7 +15,7 @@ function About() {
                 <div className="lg:col-start-2 lg:col-end-3 px-2">
                     <div className="w-72 h-72  lg:w-[320px] lg:h-[300px] 2xl:w-60 2xl:h-64 lg:m-auto  overflow-hidden rounded-2xl shadow-lg rotate-[5deg] border-2 border-gray-300 ">
                         <img
-                            src="https://cdn.pixabay.com/photo/2016/11/30/12/29/bicycle-1872682_640.jpg"
+                            src="/about.jpg"
                             alt="Loading img"
                             className="w-full h-full object-cover object-center "
                         />
